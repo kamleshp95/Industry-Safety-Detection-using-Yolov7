@@ -1,7 +1,7 @@
 # Industry-Safety-Detection-using-Yolov7
 
 
-- [Data link]()
+- [Data link](https://drive.google.com/file/d/1ncxeLuWEMXkXVI79LXbA38s-Ij0d2q4E/view)
 
 - [Yolov7 Github repo link](https://github.com/WongKinYiu/yolov7)
 
