@@ -56,21 +56,6 @@ python app.py
 ```
 
 
-## Live matarials docs
-
-[link](https://docs.google.com/document/d/1UFiHnyKRqgx8Lodsvdzu58LbVjdWHNf-uab2WmhE0A4/edit?usp=sharing)
-
-
-## Git commands
-
-```bash
-git add .
-
-git commit -m "Updated"
-
-git push origin main
-```
-
 
 ## AWS Configurations
 
@@ -144,10 +129,11 @@ python app.py
  - optinal
 
 ```bash
-	sudo apt-get update -y
+sudo apt-get update -y
 
-	sudo apt-get upgrade
-```bash
+sudo apt-get upgrade
+
+```
 
 
  - required
@@ -160,12 +146,12 @@ sudo sh get-docker.sh
 sudo usermod -aG docker ubuntu
 
 newgrp docker
-```bash	
+```	
 
 
 # 6. Configure EC2 as self-hosted runner:
 
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
+setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 
 # 7. Setup github secrets:
@@ -180,4 +166,4 @@ AWS_REGION = us-east-1
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app
-```bash
+```
