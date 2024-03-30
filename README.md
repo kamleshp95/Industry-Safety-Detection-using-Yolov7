@@ -33,9 +33,7 @@ git push origin main
 ## AWS Configurationss
 [aws cli download link](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-```
 aws configure
-```
 
 ## How to run?
 
@@ -52,35 +50,6 @@ pip install -r requirements.txt
 ```
 
 ```
-python app.py
-```
-
-
-
-## AWS Configurations
-
-```bash
-#aws cli download link: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-
-aws configure
-```
-
-
-## How to run?
-
-```bash
-conda create -n safety python=3.8 -y
-```
-
-```bash
-conda activate safety
-```
-
-```bash
-pip install -r requirements.txt
-```
-
-```bash
 python app.py
 ```
 
